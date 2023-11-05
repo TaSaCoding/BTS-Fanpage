@@ -8,7 +8,21 @@ body {
 }
 .grid {
   display: grid;
+  grid-gap: 64px;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
+}
+.img-responsive {
+  max-width: 100%;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
@@ -17,7 +31,7 @@ header {
   background-size: cover;
   background-position: center;
   text-align: center;
-  color: #ffffff;
+  color: #f7f3fc;
   padding: 200px 0;
 }
 header h1 {
@@ -45,15 +59,39 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: #0b1224;
+  background: #110a22;
   color: #7d8db1;
   border-radius: 15px;
   padding: 16px 32px;
   margin-top: 32px;
 }
-section {
-  max-width: 1200px;
-  margin: 0 auto;
+main {
+  background: #f7f3fc;
+  color: #110a22;
+}
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.7;
 }
 footer {
   background-image: linear-gradient(
@@ -61,11 +99,10 @@ footer {
       rgba(18, 11, 36, 0.8)
     ),
     url(../images/grouppic_8.jpg);
-  color: #ffffff;
+  color: #f7f3fc;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
 }
 footer h3 {
   font-weight: 700;
@@ -109,5 +146,12 @@ footer a {
   }
   header h3 {
     font-size: 14px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
   }
 }
