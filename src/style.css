@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(rgb(1, 1, 1) 11.4%, rgb(7, 26, 55));
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/grouppic_6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 200px 0;
+}
+header h1 {
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 1;
+  margin: 20px 0;
+}
+header h2 {
+  font-size: 40px;
+  line-height: 1;
+}
+header h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header a {
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #071a37;
+  color: #7d8db1;
+  border-radius: 15px;
+  padding: 16px 32px;
+  margin-top: 32px;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 14px;
+  }
+}
