@@ -1,9 +1,14 @@
 body {
-  background: linear-gradient(rgb(1, 1, 1) 11.4%, rgb(7, 26, 55));
+  background: linear-gradient(rgb(1, 1, 1) 11.4%, rgb(18, 11, 36));
+  font-family: "Noto Sans", sans-serif;
 }
 .container {
   max-width: 1400px;
   margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
@@ -16,20 +21,23 @@ header {
   padding: 200px 0;
 }
 header h1 {
-  font-weight: 800;
-  font-size: 120px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 200px;
   line-height: 1;
   margin: 20px 0;
 }
 header h2 {
   font-size: 40px;
   line-height: 1;
+  font-weight: 300;
 }
 header h3 {
   font-size: 30px;
   line-height: 1.5;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   margin: 0;
+  font-weight: 800;
 }
 header a {
   display: inline-block;
@@ -37,13 +45,59 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: #071a37;
+  background: #0b1224;
   color: #7d8db1;
   border-radius: 15px;
   padding: 16px 32px;
   margin-top: 32px;
 }
-@media (max-width: 900px) {
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer {
+  background-image: linear-gradient(
+      rgba(18, 11, 36, 0.8),
+      rgba(18, 11, 36, 0.8)
+    ),
+    url(../images/grouppic_8.jpg);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.8;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7d8db1;
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
