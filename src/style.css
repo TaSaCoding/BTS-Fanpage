@@ -6,18 +6,20 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-.detail{
-    max-width: 600px;
+.detail {
+  max-width: 600px;
 }
 .grid {
   display: grid;
-  grid-gap: 64px;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+  grid-gap: 64px;
 }
 .grid-3-columns {
+  margin-top: 50px;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
 }
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
@@ -25,6 +27,11 @@ body {
 .img-responsive {
   max-width: 100%;
   border-radius: 4px;
+  display: block;
+}
+.video {
+  max-width: 100%;
+  border-radius: 6px;
   display: block;
 }
 .text-center {
@@ -42,15 +49,16 @@ body {
 }
 .btn {
   display: block;
-  color: white;
+  color: #7d8db1;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
   text-align: center;
   letter-spacing: 3px;
+  border-radius: 15px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #462cb3;
+  background-color: #110a22;
   text-decoration: none;
 }
 section {
@@ -173,7 +181,7 @@ footer a {
     padding: 60px 0;
   }
   header h1 {
-    font-size: 50px;
+    font-size: 70px;
   }
   header h2 {
     font-size: 20px;
@@ -187,5 +195,8 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .video {
+    aspect-ratio: 16 / 9;
   }
 }
