@@ -115,27 +115,27 @@ body {
 }
 .J-Hope {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../images/members/j-hope_5.jpg);
+    url(../images/members/j-hope_2.jpg);
 }
 .Suga {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../images/members/suga_5.jpg);
+    url(../images/members/suga_3.jpg);
 }
 .RM {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../images/members/rm_5.jpg);
+    url(../images/members/rm_2.jpg);
 }
 .Jimin {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../images/members/jimin_5.jpg);
+    url(../images/members/jimin_2.jpg);
 }
 .V {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../images/members/v_5.jpg);
+    url(../images/members/v_2.jpg);
 }
 .JK {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url(../images/members/jungkook_5.jpg);
+    url(../images/members/jungkook_2.jpg);
 }
 section {
   max-width: 100%;
@@ -216,7 +216,7 @@ footer {
       rgba(18, 11, 36, 0.8),
       rgba(18, 11, 36, 0.8)
     ),
-    url(../images/grouppic_8.jpg);
+    url(../images/grouppic_11.jpg);
   color: #f7f3fc;
   background-repeat: no-repeat;
   background-size: cover;
